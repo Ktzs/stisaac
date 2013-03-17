@@ -2,7 +2,7 @@
 
 
 
-/* 	Copyright Adam Gedney 3/4/13
+/* 	Copyright Adam Gedney 3/16/13
 	contact: adam.gedney@gmail.com
 	http://adamgedney.com
 
@@ -45,18 +45,24 @@ list-style: none;
 
 
 body{
-background: #fafafa;
-color: #6e6e6e;
-font: 62.5% "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+background: #000 url("../images/church.jpg") no-repeat top center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+			background-size: cover;
+color: #f4f4f4;
+font: 62.5% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size: 62.5%;
+line-height: 1.5em;
 }
 
 h1{
-font-size: 6.9em;
+font-size: 5em;
 line-height: 1.1em;
 }
 
 h2{
-font-size: 2.6em;
+font-size: 3.2em;
 line-height: 1.14em;
 }
 
@@ -66,7 +72,7 @@ line-height: 1.8em;
 }
 
 p, ul, dl{
-font-size: 1.4em;
+font-size: 1.8em;
 line-height: 1.6;
 margin-bottom: 20px;
 }
