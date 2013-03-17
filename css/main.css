@@ -167,12 +167,23 @@ header h1{
 	margin: 0 auto;
 }
 
+.donate{
+	margin: 162px 0 0;
+}
+
+.donate p:nth-child(2){
+	text-align: right;
+	font-style: italic;
+}
+#donate-button{
+	text-align: center;
+}
 .twelvecol{
 	text-align: center;
 }
 
 footer #ads{
-	margin: 108px 0;
+	margin: 36px 0 0;
 }
 
 
