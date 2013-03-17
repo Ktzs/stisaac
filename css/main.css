@@ -57,13 +57,15 @@ line-height: 1.5em;
 }
 
 h1{
-font-size: 5em;
+font-size: 4.1em;
 line-height: 1.1em;
+font-weight: 100;
 }
 
 h2{
-font-size: 3.2em;
+font-size: 2.1em;
 line-height: 1.14em;
+font-weight: 300;
 }
 
 h3{
@@ -73,6 +75,7 @@ line-height: 1.8em;
 
 p, ul, dl{
 font-size: 1.8em;
+font-weight: 100;
 line-height: 1.6;
 margin-bottom: 20px;
 }
@@ -87,7 +90,96 @@ color: #08298A;
 }
 
 
-/*--------------------------------------End General / Start Main------------------------------------*/
+
+
+/*--------------------------------------End General / Start Form------------------------------------*/
+
+#af-form-1387414160 .af-body .af-textWrap{width: 80%;display:block;margin: 0 auto;}
+#af-form-1387414160 .af-body a{color:#000000;text-decoration:underline;font-style:normal;font-weight:normal;}
+#af-form-1387414160 .af-body input.text, #af-form-1387414160 .af-body textarea{width: 230px; height: 20px;  background-color:#F4f4f4;border-color:#1d588b;border-width:1px;border-style:inset;color:#BABABA;text-decoration:none;}
+#af-form-1387414160 .af-body input.text:focus, #af-form-1387414160 .af-body textarea:focus{background-color:#f4f4f4;border-color:#1d588b;border-width:1px;border-style:inset;}
+#af-form-1387414160 .af-body label.previewLabel{display:block;float:left;width:25%;text-align:left;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:inherit;font-family:inherit;}
+#af-form-1387414160 .af-body{padding-bottom:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:inherit;font-size:12px;font-family:, serif;}
+#af-form-1387414160 .af-quirksMode .bodyText{padding-top:2px;padding-bottom:2px;}
+#af-form-1387414160 .af-quirksMode{padding-right:15px;padding-left:15px;}
+
+#af-form-1387414160 .bodyText p{margin:1em 0;}
+#af-form-1387414160 .buttonContainer input.submit{color:#fafafa;text-decoration:none;font-style:normal;font-weight:100;font-size:3.2em;}
+#af-form-1387414160 .buttonContainer input.submit{ border: 1px solid #0f1f5d; background: #287cc3; margin-top: 18px;}
+#af-form-1387414160 .buttonContainer input.submit:hover {background:#1d588b; color: #898989;}
+#af-form-1387414160 .buttonContainer{text-align:center;}
+#af-form-1387414160 body,#af-form-1387414160 dl,#af-form-1387414160 dt,#af-form-1387414160 dd,#af-form-1387414160 h1,#af-form-1387414160 h2,#af-form-1387414160 h3,#af-form-1387414160 h4,#af-form-1387414160 h5,#af-form-1387414160 h6,#af-form-1387414160 pre,#af-form-1387414160 code,#af-form-1387414160 fieldset,#af-form-1387414160 legend,#af-form-1387414160 blockquote,#af-form-1387414160 th,#af-form-1387414160 td{float:none;color:inherit;position:static;margin:0;padding:0;}
+#af-form-1387414160 button,#af-form-1387414160 input,#af-form-1387414160 submit,#af-form-1387414160 textarea,#af-form-1387414160 select,#af-form-1387414160 label,#af-form-1387414160 optgroup,#af-form-1387414160 option{float:none;position:static;margin:0;}
+#af-form-1387414160 div{margin:0;}
+#af-form-1387414160 fieldset{border:0;}
+#af-form-1387414160 form,#af-form-1387414160 textarea,.af-form-wrapper,.af-form-close-button,#af-form-1387414160 img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}
+#af-form-1387414160 input,#af-form-1387414160 button,#af-form-1387414160 textarea,#af-form-1387414160 select{font-size:100%;}
+#af-form-1387414160 p{color:inherit;}
+#af-form-1387414160 select,#af-form-1387414160 label,#af-form-1387414160 optgroup,#af-form-1387414160 option{padding:0;}
+#af-form-1387414160 table{border-collapse:collapse;border-spacing:0;}
+#af-form-1387414160 ul,#af-form-1387414160 ol{list-style-image:none;list-style-position:outside;list-style-type:disc;padding-left:40px;}
+#af-form-1387414160,#af-form-1387414160 .quirksMode{width:300px;}
+#af-form-1387414160.af-quirksMode{overflow-x:hidden;}
+#af-form-1387414160{background-color:transparent;border-color:inherit;border-width:none;border-style:none;}
+#af-form-1387414160{display:block;}
+#af-form-1387414160{overflow:hidden;}
+.af-body .af-textWrap{text-align:left;}
+.af-body input.image{border:none!important;}
+.af-body input.submit,.af-body input.image,.af-form .af-element input.button{float:none;}
+.af-body input.text{width:100%;float:none;padding:8px 5px!important;}
+.af-body.af-standards input.submit{padding:4px 12px;margin: 0 auto; width: 240px;}
+.af-clear{clear:both;}
+.af-element label{text-align:left;display:block;}
+
+.af-form-wrapper{text-indent:0;}
+.af-form{text-align:left;margin:auto;}
+.af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}
+.lbl-right .af-element label{text-align:right;}
+
+
+/*--------------------------------------End General / Start Page------------------------------------*/
+
+
+header h1{
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.fourcol h1, h2, p{
+	text-align: center;
+}
+
+.fourcol h1:first-child{
+	margin: 108px 0 36px;
+}
+
+.fourcol h2{
+	margin-bottom: 18px;
+}
+
+#af-form-1387414160 .af-body input{
+	margin: 0 auto;
+}
+
+
+#af-form-1387414160 .af-body input.text{
+	margin: 0 auto;
+}
+
+.twelvecol{
+	text-align: center;
+}
+
+footer #ads{
+	margin: 108px 0;
+}
+
+
+
+
+
+
 
 
 
